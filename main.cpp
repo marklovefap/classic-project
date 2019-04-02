@@ -1,3 +1,4 @@
+#include<iostream>
 #include<ctime>
 #include<string>
 #include<conio.h>
@@ -119,7 +120,7 @@ void status(char *s,int c=1){
 }
 int main(){
     getup();
-    map(5,2,17);
+    //map(5,2,17);
 	int flow,size,i,xb,yb;
     int speed,restart=1,tmp,xpos[100],ypos[100],scr;
     //scr=score point
