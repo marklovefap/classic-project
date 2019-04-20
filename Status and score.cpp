@@ -12,8 +12,9 @@ using namespace std;
 void score(int sc){
     gotoxy(69,21);
     cout<<sc*10;
+}
 void status(char *s,int c=1){
-    gotoxy(69,22);
+    * // gotoxy(69,22); // ตำแหน่ง
     textcolor(c);
     int x;
     for(x=0;x<strlen(s);x++)
